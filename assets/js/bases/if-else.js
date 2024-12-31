@@ -19,3 +19,22 @@ if (day === 0) {
 } else {
     console.log('No es domingo');
 }
+
+
+
+
+// Sin utilizar sentencias If, Else o Switch (con sólo objetos), imprimir en consola el día de la semana
+
+let myDay = 5
+
+let weekDays = {
+    0: 'sunday',
+    1: 'monday',
+    2: 'tuesday',
+    3: 'wedneday',
+    4: 'thursday',
+    5: 'friday',
+    6: 'saturday',
+};
+
+console.log(weekDays[myDay]);
